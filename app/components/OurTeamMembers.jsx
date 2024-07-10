@@ -9,13 +9,13 @@ function Home() {
   const teamMembers = [
     {
       image: IMG1,
-      name: 'Ankit Kumar',
-      profession: 'Sales Department',
+      name: 'Ankit Jaiswal',
+      profession: 'Sales Marketing',
     },
     {
       image: IMG2,
       name: 'Gunjan Saxena',
-      profession: 'Human resources',
+      profession: 'Human Resources',
     },
     {
       image: IMG3,

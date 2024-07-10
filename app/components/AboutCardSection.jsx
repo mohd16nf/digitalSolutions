@@ -8,8 +8,8 @@ import Img2 from '../../public/picture20.jpg'
 
 const CardSection = () => {
     return (
-      <div className="flex justify-center py-10">
-        <div className="md:container grid grid-cols-1 md:grid-cols-3 gap-0  bg-[#17a2b8]">
+      <div className="flex justify-center py-10 xl:px-8">
+        <div className="container grid grid-cols-1 md:grid-cols-3 gap-0  bg-[#17a2b8]">
           <div className="cards">
             <Image
               src={Img3}

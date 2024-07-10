@@ -46,7 +46,7 @@ const Slider = () => {
             <img
               src={review.image}
               alt={review.name}
-              className="xl:w-[300px] sm:w-[200px] xl:h-[300px] sm:h-[200px] h-[150px] w-[150px] rounded-full mb-4 md:mb-0 md:mr-4"
+              className="xl:w-[280px] sm:w-[220px] xl:h-[300px] sm:h-[200px] h-[150px] w-[150px] rounded-full mb-4 md:mb-0 md:mr-4"
             />
           </div>
         </Transition>

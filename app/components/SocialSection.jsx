@@ -19,27 +19,27 @@ const SocialSection = () => {
         <div className="flex md:space-x-20 sm:space-x-12 space-x-8 md:mb-0 mb-16">
           <Link href={whatsappLink} passHref target='_blank'>
           
-              <FaWhatsapp className="text-green-500 cursor-pointer hover:text-white" size={40} />
+              <FaWhatsapp className="text-green-500 cursor-pointer hover:text-white" size={30} />
             
           </Link>
-          <Link href="mailto:mdasif16nf@gmail.com" passHref target='_blank'>
+          <Link href="mailto:itdigitals2022@gmail.com" passHref target='_blank'>
             
-              <FaEnvelope className="text-red-500 cursor-pointer hover:text-white" size={40} />
+              <FaEnvelope className="text-red-500 cursor-pointer hover:text-white" size={30} />
             
           </Link>
           <Link href="https://www.facebook.com" passHref target='_blank'>
   
-              <FaFacebook className="text-blue-700 cursor-pointer hover:text-white" size={40} />
+              <FaFacebook className="text-blue-700 cursor-pointer hover:text-white" size={30} />
             
           </Link>
           <Link href={instaLink} passHref target='_blank'>
         
-              <FaInstagram className="text-pink-500 cursor-pointer hover:text-white" size={40} />
+              <FaInstagram className="text-pink-500 cursor-pointer hover:text-white" size={30} />
             
           </Link>
-          <Link href='#' passHref target='_blank'>
+          <Link href='https://www.twitter.com/itdigitals' passHref target='_blank'>
         
-              <FaTwitter className="text-blue-700 cursor-pointer hover:text-white" size={40} />
+              <FaTwitter className="text-blue-700 cursor-pointer hover:text-white" size={30} />
             
           </Link>
         </div>

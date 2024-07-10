@@ -52,6 +52,9 @@ const Navbar = () => {
               <Link href="/" passHref>
                 <span className="text-white text-2xl cursor-pointer">Get in Touch</span>
               </Link>
+              <Link href="https://docs.google.com/presentation/d/1sns6Dz-WXB32vgDuFzob31SBbVO1D56y/edit?usp=sharing&ouid=107168939517355480908&rtpof=true&sd=true " target='_blank' passHref>
+                <span className="text-white text-2xl cursor-pointer">Brochure</span>
+              </Link>
             </div>
           </div>
           <div className="flex xl:hidden">
@@ -135,7 +138,9 @@ const Navbar = () => {
               Get in Touch
             </span>
           </Link>
-        
+          <Link href="https://docs.google.com/presentation/d/1sns6Dz-WXB32vgDuFzob31SBbVO1D56y/edit?usp=sharing&ouid=107168939517355480908&rtpof=true&sd=true " target='_blank' passHref>
+                <span className="text-white text-2xl cursor-pointer">Brochure</span>
+              </Link>
         </div>
       </div>
     </div>
