@@ -32,7 +32,7 @@ function Home() {
   return (
     <div>
       <div>
-      <title>Our Team</title>
+      <title>ITDigitals</title>
       <link rel="icon" href="/favicon.ico" />
       </div>
         

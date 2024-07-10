@@ -6,10 +6,10 @@ import { FaFacebook, FaWhatsapp, FaInstagram } from 'react-icons/fa';
 const Footer = () => {
 
 
-  const phoneNumber = '8750096393'; // Ensure the number is in the correct format
+  const phoneNumber = '9821848522'; // Ensure the number is in the correct format
   const message = 'Hi, How can I help you?';
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-  const instaLink = 'https://www.instagram.com/md16nf/'
+  const instaLink = 'https://www.instagram.com/itdigitals/'
 
   return (
     <footer className="text-gray-800 md:pt-24 pt-12 border-4 border-t-gray-400">
@@ -47,8 +47,8 @@ const Footer = () => {
           </address>
         </div>
       </div>
-      <div className="border-t border-gray-300 text-center py-12 bg-[#17a2b8]">
-        © 2024 Corporate Infotech Pvt. Ltd. All Rights Reserved.
+      <div className="border-t border-gray-300 text-center py-12 bg-[#17a2b8] text-white text-lg">
+        © 2023 ITdigitals All Rights Reserved.
       </div>
     </footer>
   );

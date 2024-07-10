@@ -8,15 +8,9 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 const reviews = [
   {
     image: '/logo6.png',
-    name: 'John Doe',
-    remark: 'This is an amazing product! Highly recommend this service.',
-    profession: 'Software Engineer',
   },
   {
-    image: '/logo6.png',
-    name: 'Jane Smith',
-    remark: 'Highly recommend this service.',
-    profession: 'Project Manager',
+    image: '/logo6.png'
   },
   // Add more reviews as needed
 ];
@@ -54,11 +48,6 @@ const Slider = () => {
               alt={review.name}
               className="xl:w-[300px] sm:w-[200px] xl:h-[300px] sm:h-[200px] h-[150px] w-[150px] rounded-full mb-4 md:mb-0 md:mr-4"
             />
-            <div className="text-center md:text-left space-y-4">
-              <h3 className="text-xl font-bold">{review.name}</h3>
-              <p className="text-sm text-gray-600">{review.profession}</p>
-              <p className="mt-2 text-gray-800">{review.remark}</p>
-            </div>
           </div>
         </Transition>
       ))}
