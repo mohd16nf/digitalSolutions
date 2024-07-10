@@ -23,22 +23,22 @@ const Navbar = () => {
                   Product and Services
                 </button>
                 <div className="absolute left-0 w-[300px] bg-[#17a2b8] h-[400px] mt-2 text-white hidden group-hover:block rounded-md shadow-lg z-20">
-                  <Link href="/services/it-facility-management" passHref>
+                  <Link href="/pages/services/it-facility-management" passHref>
                     <span className="block px-4 py-2 text-2xl cursor-pointer">IT Facility Management Services</span>
                   </Link>
-                  <Link href="/services/digital-solutions" passHref>
+                  <Link href="/pages/services/digital-solutions" passHref>
                     <span className="block px-4 py-2 text-2xl cursor-pointer">Digital Solutions and Software Services</span>
                   </Link>
-                  <Link href="/services/cloud-services" passHref>
+                  <Link href="/pages/services/cloud-services" passHref>
                     <span className="block px-4 py-2 text-2xl cursor-pointer">Cloud Services</span>
                   </Link>
-                  <Link href="/services/software-development" passHref>
+                  <Link href="/pages/services/software-development" passHref>
                     <span className="block px-4 py-2 text-2xl cursor-pointer">Software Development</span>
                   </Link>
-                  <Link href="/services/iot-virtualisation" passHref>
+                  <Link href="/pages/services/iot-virtualisation" passHref>
                     <span className="block px-4 py-2 text-2xl cursor-pointer">IoT and Virtualisation</span>
                   </Link>
-                  <Link href="/services/data-science-analytics" passHref>
+                  <Link href="/pages/services/data-science-analytics" passHref>
                     <span className="block px-4 py-2 text-2xl cursor-pointer">Data Science and Analytics</span>
                   </Link>
                 </div>
