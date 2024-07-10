@@ -13,27 +13,27 @@ const ImageSlider = () => {
 
   const images = [
     {
-      src: '/Picture1.jpg',
+      src: '/sliderImg3.jpg',
       heading: "Creating beautiful tech experiences that tell a story.",
       subheading: 'Strategy & Planning, Development and Implementation.'
     },
     {
-      src: '/Picture2.jpg',
+      src: '/sliderImg4.jpg',
       heading: 'All digital solution in the most effective manner.',
       subheading: 'Machine Learning, AI, Cloud Computing, Analytics.'
     },
     {
-      src: '/Picture3.jpg',
+      src: '/sliderImg1.jpg',
       heading: 'One stop tech destination across all verticals.',
       subheading: 'Strategy & Planning, Development and Implementation.'
     },
     {
-      src: '/Picture4.jpg',
+      src: '/sliderImg2.jpg',
       heading: 'All digital solution in the most effective manner.',
       subheading: 'Machine Learning, AI, Cloud Computing, Analytics.'
     },
     {
-      src: '/Picture5.jpg',
+      src: '/sliderImg6.jpg',
       heading: 'One stop tech destination across all verticals.',
       subheading: 'Strategy & Planning, Development and Implementation.'
     },

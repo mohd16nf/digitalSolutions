@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Img1 from '../../../../public/it-services2.jpg'; // Adjust the path as needed
+import Img1 from '../../../../public/sliderImg2.jpg'; // Adjust the path as needed
 
 const ITFacilityManagement = () => {
   return (

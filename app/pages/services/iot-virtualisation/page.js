@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Img5 from '../../../../public/virtulisation.jpg'; // Adjust the path as needed
+import Img5 from '../../../../public/sliderImg4.jpg'; // Adjust the path as needed
 
 const IOTVirtualisation = () => {
   return (

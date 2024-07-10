@@ -9,13 +9,13 @@ const reviews = [
   {
     image: '/logo6.png',
     name: 'John Doe',
-    remark: 'This is an amazing product!Highly recommend this service.',
+    remark: 'This is an amazing product! Highly recommend this service.',
     profession: 'Software Engineer',
   },
   {
     image: '/logo6.png',
     name: 'Jane Smith',
-    remark: 'Highly recommend this service.Highly recommend this service. Highly recommend this service This is an amazing product!Highly recommend this service.',
+    remark: 'Highly recommend this service.',
     profession: 'Project Manager',
   },
   // Add more reviews as needed

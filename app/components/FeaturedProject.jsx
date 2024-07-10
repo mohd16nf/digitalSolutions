@@ -20,8 +20,8 @@ const FeaturedProjects = () => {
                 className="transform transition-transform duration-300 group-hover:scale-105 group-hover:translate-y-[-5px]"
               />
             </div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-blue-600 transition-colors duration-300">
-              <h3 className="text-3xl font-semibold mb-2 group-hover:text-white text-center">Project IT </h3>
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-blue-400 transition-colors duration-300">
+              <h3 className="text-3xl font-semibold mb-2 group-hover:text-white text-center">Project Cloud storage </h3>
             </div>
           </div>
 
@@ -29,14 +29,14 @@ const FeaturedProjects = () => {
           <div className="relative group overflow-hidden bg-white rounded-lg shadow-lg h-[450px]">
             <div className="absolute inset-0">
               <Image
-                src="/Picture6.jpg"
+                src="/softwareDevelopment3.jpg"
                 alt="Image 2"
                 layout="fill"
                 objectFit="cover"
                 className="transform transition-transform duration-300 group-hover:scale-105 group-hover:translate-y-[-5px]"
               />
             </div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-blue-600 transition-colors duration-300">
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-blue-400 transition-colors duration-300">
               <h3 className="text-3xl font-semibold mb-2 group-hover:text-white text-center">Project Software Development</h3>
      
             </div>
@@ -46,15 +46,15 @@ const FeaturedProjects = () => {
           <div className="relative group overflow-hidden bg-white rounded-lg shadow-lg h-[450px]">
             <div className="absolute inset-0">
               <Image
-                src="/virtulisation.jpg"
+                src="/ip-cctv-camera.jpg"
                 alt="Image 3"
                 layout="fill"
                 objectFit="cover"
                 className="transform transition-transform duration-300 group-hover:scale-105 group-hover:translate-y-[-5px]"
               />
             </div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-blue-600 transition-colors duration-300">
-              <h3 className="text-3xl font-semibold mb-2 group-hover:text-white text-center">Project IOT-Virtulisation</h3>
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-blue-400 transition-colors duration-300">
+              <h3 className="text-3xl font-semibold mb-2 group-hover:text-white text-center">IP CCTV Camera</h3>
         
             </div>
           </div>
@@ -70,8 +70,8 @@ const FeaturedProjects = () => {
                 className="transform transition-transform duration-300 group-hover:scale-105 group-hover:translate-y-[-5px]"
               />
             </div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-blue-600 transition-colors duration-300">
-              <h3 className="text-3xl font-semibold mb-2 group-hover:text-white text-center">Project Cloud Services</h3>
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-blue-400 transition-colors duration-300">
+              <h3 className="text-3xl font-semibold mb-2 group-hover:text-white text-center">Data Center Infrustucture</h3>
              
             </div>
           </div>

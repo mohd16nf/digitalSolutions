@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Img1 from '../../public/it-services2.jpg';
-import Img2 from '../../public/digitalSolutions.jpg';
-import Img3 from '../../public/cloudServices.jpg';
+import Img1 from '../../public/it-services3.jpg';
+import Img2 from '../../public/digitalSolutions2.jpg';
+import Img3 from '../../public/digitalSolutions.jpg';
 import Img4 from '../../public/softwareDevelopment.png';
-import Img5 from '../../public/virtulisation.jpg';
+import Img5 from '../../public/it-services2.jpg';
 import Img6 from '../../public/network-security.jpg';
 import styles from './ServicesSection.module.css';
 

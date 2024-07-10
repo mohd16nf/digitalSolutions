@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Img6 from '../../../../public/network-security.jpg'; // Adjust the path as needed
+import Img6 from '../../../../public/Picture4.jpg'; // Adjust the path as needed
 
 const DataScienceAnalytics = () => {
   return (

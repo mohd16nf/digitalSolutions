@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Img2 from '../../../../public/digitalSolutions.jpg'; // Adjust the path as needed
+import Img2 from '../../../../public/sliderImg4.jpg'; // Adjust the path as needed
 
 const DigitalSolutions = () => {
   return (

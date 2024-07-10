@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Img3 from '../../../../public/cloudServices.jpg'; // Adjust the path as needed
+import Img3 from '../../../../public/sliderImg3.jpg'; // Adjust the path as needed
 
 const CloudServices = () => {
   return (

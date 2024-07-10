@@ -43,13 +43,13 @@ const Navbar = () => {
                   </Link>
                 </div>
               </div>
-              <Link href="#client-section" passHref>
+              <Link href="/" passHref>
                 <span className="text-white text-2xl cursor-pointer">Clients</span>
               </Link>
-              <Link href="#about-section" passHref>
+              <Link href="/" passHref>
                 <span className="text-white text-2xl cursor-pointer">About Us</span>
               </Link>
-              <Link href="#contact-form" passHref>
+              <Link href="/" passHref>
                 <span className="text-white text-2xl cursor-pointer">Get in Touch</span>
               </Link>
             </div>
