@@ -20,9 +20,8 @@ const FeaturedProjects = () => {
                 className="transform transition-transform duration-300 group-hover:scale-105 group-hover:translate-y-[-5px]"
               />
             </div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-white transition-colors duration-300">
-              <h3 className="text-2xl font-semibold mb-2 group-hover:text-blue-500">Project 1 Heading</h3>
-              <p className="text-lg text-center group-hover:text-blue-500">Description for Project 1.</p>
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-blue-600 transition-colors duration-300">
+              <h3 className="text-3xl font-semibold mb-2 group-hover:text-white text-center">Project IT </h3>
             </div>
           </div>
 
@@ -37,9 +36,9 @@ const FeaturedProjects = () => {
                 className="transform transition-transform duration-300 group-hover:scale-105 group-hover:translate-y-[-5px]"
               />
             </div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-white transition-colors duration-300">
-              <h3 className="text-2xl font-semibold mb-2 group-hover:text-blue-500">Project 2 Heading</h3>
-              <p className="text-lg text-center group-hover:text-blue-500">Description for Project 2.</p>
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-blue-600 transition-colors duration-300">
+              <h3 className="text-3xl font-semibold mb-2 group-hover:text-white text-center">Project Software Development</h3>
+     
             </div>
           </div>
 
@@ -54,9 +53,9 @@ const FeaturedProjects = () => {
                 className="transform transition-transform duration-300 group-hover:scale-105 group-hover:translate-y-[-5px]"
               />
             </div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-white transition-colors duration-300">
-              <h3 className="text-2xl font-semibold mb-2 group-hover:text-blue-500">Project 3 Heading</h3>
-              <p className="text-lg text-center group-hover:text-blue-500">Description for Project 3.</p>
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-blue-600 transition-colors duration-300">
+              <h3 className="text-3xl font-semibold mb-2 group-hover:text-white text-center">Project IOT-Virtulisation</h3>
+        
             </div>
           </div>
 
@@ -71,9 +70,9 @@ const FeaturedProjects = () => {
                 className="transform transition-transform duration-300 group-hover:scale-105 group-hover:translate-y-[-5px]"
               />
             </div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-white transition-colors duration-300">
-              <h3 className="text-2xl font-semibold mb-2 group-hover:text-blue-500">Project 4 Heading</h3>
-              <p className="text-lg text-center group-hover:text-blue-500">Description for Project 4.</p>
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-blue-600 transition-colors duration-300">
+              <h3 className="text-3xl font-semibold mb-2 group-hover:text-white text-center">Project Cloud Services</h3>
+             
             </div>
           </div>
         </div>
