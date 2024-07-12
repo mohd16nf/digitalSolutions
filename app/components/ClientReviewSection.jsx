@@ -10,7 +10,7 @@ const reviews = [
     image: '/logo6.png',
   },
   {
-    image: '/logo6.png'
+    image: '/client2.png'
   },
   // Add more reviews as needed
 ];
@@ -46,7 +46,7 @@ const Slider = () => {
             <img
               src={review.image}
               alt={review.name}
-              className="xl:w-[280px] sm:w-[220px] xl:h-[300px] sm:h-[200px] h-[150px] w-[150px] rounded-full mb-4 md:mb-0 md:mr-4"
+              className=" rounded-full mb-4 md:mb-0 md:mr-4"
             />
           </div>
         </Transition>

@@ -9,14 +9,14 @@ const SocialSection = () => {
   const instaLink = 'https://www.instagram.com/itdigitals/'
 
   return (
-    <div className="mx-auto p-4 xl:px-48 md:px-16 md:p-12 bg-[#17a2b8]">
+    <div className="mx-auto xl:px-48 md:px-16 md:py-8 bg-[#17a2b8]">
       <div className="flex flex-col md:flex-row items-center md:justify-center">
-        <div className="md:mt-0 mt-10 md:mb-0 mb-10 md:mr-12">
+        <div className="md:mt-0 mt-4 md:mb-0 mb-4 md:mr-12">
           <h2 className="lg:text-3xl lg:tracking-widest tracking-wide decoration-white text-white text-xl">
             Connect with us :
           </h2>
         </div>
-        <div className="flex md:space-x-20 sm:space-x-12 space-x-8 md:mb-0 mb-16">
+        <div className="flex md:space-x-20 sm:space-x-12 space-x-8 md:mb-0 mb-8">
           <Link href={whatsappLink} passHref target='_blank'>
           
               <FaWhatsapp className="text-green-500 cursor-pointer hover:text-white" size={30} />

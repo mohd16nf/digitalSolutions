@@ -7,14 +7,14 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="absolute top-0 left-0 w-full xl:py-4 pt-4 z-50 md:px-[150px]">
+    <nav className="absolute top-0 left-0 w-full xl:py-4 pt-4 z-50">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <img className="h-36 w-52" src="/logo32.png" alt="Brand Logo" />
+            <img className="h-36 w-[300px]" src="/logo32.png" alt="Brand Logo" />
           </div>
           <div className="hidden xl:block">
-            <div className="ml-10 flex items-baseline space-x-8 ">
+            <div className="ml-10 flex items-baseline space-x-6 ">
               <Link href="/" passHref>
                 <span className="text-white md:text-2xl cursor-pointer">Home</span>
               </Link>

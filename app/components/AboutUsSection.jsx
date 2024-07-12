@@ -16,7 +16,7 @@ const WelcomeSection = () => {
       then, it has carved out a niche in the market and established itself as the
       Newest solution provider and rapidly expanding company.IT Digitals, over
       the years, has built a powerful portfolio of products and services under
-      the leadership of Mr. Manoj, the Managing Director & CEO.
+      the leadership of Mr. Manoj K Singh, the Managing Director & CEO.
       </p>
       <div className='flex justify-center'>
         <button className="flex items-center justify-center bg-black text-white py-5 font-bold px-8 text-xl">

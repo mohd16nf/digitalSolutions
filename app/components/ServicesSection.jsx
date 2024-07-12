@@ -95,7 +95,7 @@ const CardSection = () => {
           </div>
           <div className="absolute inset-0 bg-gradient-to-t from-blue-500 to-transparent transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 z-10"></div>
           <div className="pl-8 pt-8 relative z-30">
-            <h3 className="text-2xl font-semibold mb-2">IoT and Virtualisation</h3>
+            <h3 className="text-2xl font-semibold mb-2">Online Remote Support</h3>
           </div>
         </div>
 

@@ -30,7 +30,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="bg-[#17a2b8] text-white xl:p-40 md:p-16 px-6 py-12" id='contact-form'>
+    <div className="bg-[#17a2b8] text-white md:px-40 px-8 md:py-20 py-12 " id='contact-form'>
       <div className="flex flex-col md:flex-row">
         {/* First Div */}
         <div className="flex-1 mb-8 md:mb-0 md:mr-8">
