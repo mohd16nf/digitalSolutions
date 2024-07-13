@@ -103,7 +103,7 @@ const ImageSlider = () => {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.2, duration: 4 }} // Adjust text appearing time here (in seconds)
-                  className="font-bold mb-12 xl:text-6xl md:text-6xl text-4xl"
+                  className="font-bold mb-12 xl:text-5xl text-4xl"
                 >
                   {images[currentSlide].heading}
                 </motion.h1>

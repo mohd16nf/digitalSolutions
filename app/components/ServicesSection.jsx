@@ -12,7 +12,7 @@ const CardSection = () => {
   return (
     <div className=" mx-auto py-8" id='services-section'>
       <h2 className="text-3xl font-semibold mb-6 text-center">WHAT WE DO?</h2>
-      <h1 className="xl:text-6xl md:text-4xl text-3xl lg:px-20 text-center my-10 text-blue-700 lg:font-normal font-semibold">OUR ADVANCED TECH STRATEGY AND DELIVERY HELP IN EFFECTIVE COMMUNICATION</h1>
+      <h1 className="xl:text-5xl md:text-4xl text-3xl lg:px-20 text-center my-10 text-blue-700 lg:font-normal font-semibold">OUR ADVANCED TECH STRATEGY AND DELIVERY HELP IN EFFECTIVE COMMUNICATION</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Card 1 */}
         <div className={`relative group overflow-hidden ${styles.card}`}>

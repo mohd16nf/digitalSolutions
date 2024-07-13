@@ -95,28 +95,28 @@ nav .group:hover .group-hover\:hidden {
 
 @media (min-width: 1390px) {
   #card-container {
-    margin: 0px 200px; /* Adjust this value as needed */
+    margin: 0px 150px; /* Adjust this value as needed */
   }
   #nav-container2{
     margin: 0px 100px;
   }
   #featured-container{
-    margin: 0px 200px;
+    margin: 0px 150px;
   }
   #services-section{
-    margin: 0px 200px;
+    margin: 0px 150px;
   }
   #about-section{
-    margin: 0px 200px;
+    margin: 0px 150px;
   }
 
   .contact-form{
-    padding: 0px 200px;
+    padding: 0px 150px;
   }
   .about-section{
-    padding: 0px 200px;
+    padding: 0px 150px;
   }
   .team-members{
-    padding: 0px 200px;
+    padding: 0px 150px;
   }
 }
