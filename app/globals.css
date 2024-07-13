@@ -70,13 +70,13 @@ nav .group:hover .group-hover\:hidden {
   }
 
   .contact-form{
-    padding: 0px 20px;
+    padding: 50px 20px;
   }
   .about-section{
-    padding: 0px 20px;
+    padding: 50px 20px;
   }
   .team-members{
-    padding: 0px 20px;
+    padding: 50px 20px;
   }
 }
 
