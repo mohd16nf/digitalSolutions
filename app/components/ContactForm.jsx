@@ -88,7 +88,7 @@ const ContactForm = () => {
             </div>
             <button
               type="submit"
-              className="flex items-center justify-center px-8 py-4 bg-black text-lg text-white hover:bg-gray-800"
+              className="flex items-center justify-center px-8 py-4 bg-black text-lg text-white hover:bg-gray-800 rounded"
             >
               Send Message <FiArrowRight className="ml-2" />
             </button>

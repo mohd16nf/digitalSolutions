@@ -19,7 +19,7 @@ const WelcomeSection = () => {
       the leadership of Mr. Manoj K Singh, the Managing Director & CEO.
       </p>
       <div className='flex justify-center'>
-        <button className="flex items-center justify-center bg-black text-white py-5 font-bold px-8 text-xl">
+        <button className="flex items-center justify-center bg-black text-white py-4 rounded font-bold px-6">
           More About Us <FaArrowRight className="ml-2" />
         </button>
       </div>

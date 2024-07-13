@@ -80,7 +80,7 @@ const FeaturedProjects = () => {
         {/* Button below the cards */}
         <div className="mt-16 flex justify-center">
           <Link href="/" passHref>
-            <div className="bg-black text-white py-5 px-10 text-xl flex items-center rounded cursor-pointer">
+            <div className="bg-black text-white py-4 px-8 text-xl flex items-center rounded cursor-pointer">
               <span>View More Projects</span> <span className="ml-2">&#8594;</span>
             </div>
           </Link>
