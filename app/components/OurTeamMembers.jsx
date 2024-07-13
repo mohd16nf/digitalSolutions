@@ -38,7 +38,7 @@ function Home() {
         
       
 
-      <main className="py-10 team-members">
+      <main className=" team-members">
         <h1 className="text-4xl font-bold text-center mb-10">Our Team Members</h1>
         <div className="flex flex-wrap justify-center xl:gap-8 gap-4">
           {teamMembers.map((member, index) => (

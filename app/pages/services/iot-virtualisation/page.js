@@ -9,7 +9,7 @@ const IOTVirtualisation = () => {
           <Image src={Img5} alt="IoT and Virtualisation" className="w-full h-auto" />
         </div>
         <div className="md:w-1/2 w-full md:pl-8 mt-8 md:mt-0">
-          <h1 className="text-4xl font-bold">IoT and Virtualisation</h1>
+          <h1 className="text-4xl font-bold">Online Remote Support</h1>
           
           <p className="mt-4 text-xl">
           Server virtualization is the process of dividing a real server into several virtual servers, also referred to as virtual private

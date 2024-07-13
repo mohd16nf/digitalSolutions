@@ -34,21 +34,8 @@
   }
   
 
-
-nav {
-  transition: background-color 0.3s ease;
-}
-
-nav:hover {
-  background-color:#17a2b8;
-}
-
 nav a {
   transition: color 0.3s ease;
-}
-
-nav a:hover {
-  color: cyan;
 }
 
 nav .group:hover .group-hover\:block {
@@ -117,6 +104,6 @@ nav .group:hover .group-hover\:hidden {
     padding: 0px 150px;
   }
   .team-members{
-    padding: 0px 150px;
+    padding: 50px 150px;
   }
 }
