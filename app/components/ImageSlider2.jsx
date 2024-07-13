@@ -156,7 +156,7 @@ const ImageSlider = () => {
           <motion.p
             initial={{ x: '100%' }}
             animate={{ x: '-100%' }}
-            transition={{ repeat: Infinity, duration: 18, ease: 'linear' }} // Adjust text scrolling duration here (in seconds)
+            transition={{ repeat: Infinity, duration: 24, ease: 'linear' }} // Adjust text scrolling duration here (in seconds)
             className="inline-block px-4 text-xl"
           >
             “We’ excel in offering comprehensive IT service solutions and all AMC service providers such as Networking, Cloud Sevices, Web Development, System Support services etc.”
