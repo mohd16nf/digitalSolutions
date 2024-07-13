@@ -47,7 +47,7 @@ const Footer = () => {
           </address>
         </div>
       </div>
-      <div className="border-t border-gray-300 text-center py-12 bg-[#17a2b8] text-white text-lg">
+      <div className="border-t border-gray-300 text-center py-8 bg-[#17a2b8] text-white text-lg">
         © 2023 ITdigitals All Rights Reserved.
       </div>
     </footer>
