@@ -38,9 +38,9 @@ function Home() {
         
       
 
-      <main className="py-10">
+      <main className="py-10 team-members">
         <h1 className="text-4xl font-bold text-center mb-10">Our Team Members</h1>
-        <div className="flex flex-wrap justify-center xl:gap-12 gap-4">
+        <div className="flex flex-wrap justify-center xl:gap-8 gap-4">
           {teamMembers.map((member, index) => (
             <TeamMemberCard
               key={index}
