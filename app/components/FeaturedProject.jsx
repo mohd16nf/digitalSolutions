@@ -5,8 +5,8 @@ import Link from 'next/link';
 const FeaturedProjects = () => {
   return (
     <div className="bg-[#17a2b8] py-24 mt-8">
-      <div className="md:container mx-auto px-4 md:px-16">
-        <h2 className="text-3xl text-blue-500 mb-8 text-center">Featured Projects</h2>
+      <div className=" mx-auto" id='featured-container'>
+        <h2 className="text-3xl text-blue-800 font-bold mb-8 text-center">Featured Projects</h2>
         <h1 className="text-5xl font-bold mb-20 text-white text-center">We transmute our genuine proposition into technology.</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Card 1 */}

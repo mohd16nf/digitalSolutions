@@ -62,3 +62,49 @@ nav .group:hover .group-hover\:hidden {
 .transform {
   transition: transform 0.3s ease-in-out;
 }
+
+
+
+@media (max-width: 1366px){
+  #card-container {
+    margin: 0px 20px; /* Adjust this value as needed */
+  }
+  #nav-container2{
+    margin: 0px 20px;
+  }
+  #featured-container{
+    margin: 0px 20px;
+  }
+  #services-section{
+    margin: 0px 20px;
+  }
+  #about-section{
+    margin: 0px 20px;
+  }
+
+  .contact-form{
+    padding: 0px 20px;
+  }
+}
+
+@media (min-width: 1390px) {
+  #card-container {
+    margin: 0px 200px; /* Adjust this value as needed */
+  }
+  #nav-container2{
+    margin: 0px 100px;
+  }
+  #featured-container{
+    margin: 0px 200px;
+  }
+  #services-section{
+    margin: 0px 200px;
+  }
+  #about-section{
+    margin: 0px 200px;
+  }
+
+  .contact-form{
+    padding: 0px 200px;
+  }
+}

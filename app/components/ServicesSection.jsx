@@ -10,9 +10,9 @@ import styles from './ServicesSection.module.css';
 
 const CardSection = () => {
   return (
-    <div className="md:container mx-auto py-8 px-4 md:px-12" id='services-section'>
-      <h2 className="text-3xl font-semibold mb-6 text-center text-blue-500">WHAT WE DO?</h2>
-      <h1 className="xl:text-6xl md:text-3xl text-2xl px-20 text-center my-10">Our advanced tech strategy and delivery help in effective communication</h1>
+    <div className=" mx-auto py-8" id='services-section'>
+      <h2 className="text-3xl font-semibold mb-6 text-center">WHAT WE DO?</h2>
+      <h1 className="xl:text-6xl md:text-4xl text-3xl lg:px-20 text-center my-10 text-blue-700 lg:font-normal font-semibold">OUR ADVANCED TECH STRATEGY AND DELIVERY HELP IN EFFECTIVE COMMUNICATION</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Card 1 */}
         <div className={`relative group overflow-hidden ${styles.card}`}>

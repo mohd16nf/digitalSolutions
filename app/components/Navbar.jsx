@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className="absolute top-0 left-0 w-full xl:py-4 pt-4 z-50">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-full mx-auto" id='nav-container2'>
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <img className="h-36 w-[300px]" src="/logo32.png" alt="Brand Logo" />

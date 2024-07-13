@@ -7,14 +7,14 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="absolute top-0 left-0 w-full xl:py-4 pt-4 z-50 bg-[#17a2b8] md:px-[150px]">
-      <div className="max-w-7xl mx-auto">
+    <div className="absolute top-0 left-0 w-full xl:py-4 pt-4 z-50 bg-[#17a2b8]">
+      <div className="max-w-full mx-auto" id='nav-container2'>
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <img className="h-36 w-52" src="/logo32.png" alt="Brand Logo" />
+            <img className="h-36 w-[300px]" src="/logo32.png" alt="Brand Logo" />
           </div>
           <div className="hidden xl:block">
-            <div className="ml-10 flex items-baseline space-x-8 ">
+            <div className="ml-10 flex items-baseline space-x-6 ">
               <Link href="/" passHref>
                 <span className="text-white md:text-2xl cursor-pointer">Home</span>
               </Link>
@@ -22,7 +22,7 @@ const Navbar = () => {
                 <button className="text-white focus:outline-none text-2xl">
                   Product and Services
                 </button>
-                <div className="absolute left-0 w-[300px] h-[400px] mt-2 text-white bg-[#17a2b8] hidden group-hover:block rounded-md shadow-lg z-20">
+                <div className="absolute left-0 w-[300px] bg-[#17a2b8] h-[400px] mt-2 text-white hidden group-hover:block rounded-md shadow-lg z-20">
                   <Link href="/pages/services/it-facility-management" passHref>
                     <span className="block px-4 py-2 text-2xl cursor-pointer">IT Facility Management Services</span>
                   </Link>
@@ -43,13 +43,13 @@ const Navbar = () => {
                   </Link>
                 </div>
               </div>
-              <Link href="/" passHref>
+              <Link href="#client-section" passHref>
                 <span className="text-white text-2xl cursor-pointer">Clients</span>
               </Link>
-              <Link href="/" passHref>
+              <Link href="#about-section" passHref>
                 <span className="text-white text-2xl cursor-pointer">About Us</span>
               </Link>
-              <Link href="/" passHref>
+              <Link href="#contact-form" passHref>
                 <span className="text-white text-2xl cursor-pointer">Get in Touch</span>
               </Link>
               <Link href="https://docs.google.com/presentation/d/1sns6Dz-WXB32vgDuFzob31SBbVO1D56y/edit?usp=sharing&ouid=107168939517355480908&rtpof=true&sd=true " target='_blank' passHref>
@@ -139,8 +139,11 @@ const Navbar = () => {
             </span>
           </Link>
           <Link href="https://docs.google.com/presentation/d/1sns6Dz-WXB32vgDuFzob31SBbVO1D56y/edit?usp=sharing&ouid=107168939517355480908&rtpof=true&sd=true " target='_blank' passHref>
-                <span className="text-white text-2xl cursor-pointer">Brochure</span>
-              </Link>
+            <span className="block text-black px-3 py-2 rounded-md text-base font-medium cursor-pointer">
+              Brochure
+            </span>
+          </Link>
+        
         </div>
       </div>
     </div>
