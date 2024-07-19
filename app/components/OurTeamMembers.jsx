@@ -1,29 +1,28 @@
 // pages/index.js
-import IMG1 from '../../public/ankit.jpg'
-import IMG2 from '../../public/gunjanSaxena.jpg'
-import IMG3 from '../../public/asif.jpg'
-import IMG4 from '../../public/manoj.jpg'
-import TeamMemberCard from './OurTeamMembersCard'
+import React from 'react';
+import Head from 'next/head';
+import TeamMemberCard from './OurTeamMembersCard';
+import { FaUserCircle } from 'react-icons/fa';
 
-function Home() {
+const Home = () => {
   const teamMembers = [
     {
-      image: IMG1,
+      image: FaUserCircle,
       name: 'Ankit Jaiswal',
       profession: 'Sales Marketing',
     },
     {
-      image: IMG2,
+      image: FaUserCircle,
       name: 'Gunjan Saxena',
       profession: 'Human Resources',
     },
     {
-      image: IMG3,
+      image: FaUserCircle,
       name: 'Md Asif',
-      profession: 'Full stack Web Developer',
+      profession: 'Full Stack Web Developer'
     },
     {
-      image: IMG4,
+      image: FaUserCircle,
       name: 'Manoj K Singh',
       profession: 'CEO',
     }
@@ -31,14 +30,12 @@ function Home() {
 
   return (
     <div>
-      <div>
-      <title>ITDigitals</title>
-      <link rel="icon" href="/favicon.ico" />
-      </div>
-        
-      
+      <Head>
+        <title>ITDigitals</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
-      <main className=" team-members">
+      <main className="team-members">
         <h1 className="text-4xl font-bold text-center mb-10">Our Team Members</h1>
         <div className="flex flex-wrap justify-center xl:gap-8 gap-4">
           {teamMembers.map((member, index) => (
