@@ -43,7 +43,7 @@ const Footer = () => {
           <h3 className="lg:text-2xl text-xl font-bold mb-2 text-blue-500">Visit Us</h3>
           <address className="not-italic">
             <p>F-1122, NEAR  BLK-
-            BAWANA, New Delhi, North Delhi</p>
+            BAWANA, New Delhi, North Delhi - 110039</p>
           </address>
         </div>
       </div>

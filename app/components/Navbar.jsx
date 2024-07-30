@@ -1,21 +1,33 @@
 'use client'
 import { FaChevronDown } from 'react-icons/fa';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSubmenuOpen, setIsSubmenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-[#17a2b8]">
+    <nav className={`fixed top-0 left-0 w-full z-50 ${isScrolled ? 'bg-[#17a2b8] bg-opacity-60' : 'bg-transparent'}`}>
       <div className="max-w-full mx-auto" id='nav-container2'>
         <div className="flex justify-between items-center h-16">
           <Link className="flex-shrink-0" href='/'>
-            <img className="h-28 w-[260px] cursor-pointer" src="/logo32.png" alt="Brand Logo"  />
+            <img className="h-28 w-[260px] cursor-pointer" src="/logo32.png" alt="Brand Logo" />
           </Link>
           <div className="hidden xl:block">
-            <div className="ml-10 flex items-baseline space-x-6 ">
+            <div className="ml-10 flex items-baseline space-x-6">
               <Link href="/" passHref>
                 <span className="text-white cursor-pointer hover:text-black">Home</span>
               </Link>
@@ -24,7 +36,7 @@ const Navbar = () => {
                   className="text-white focus:outline-none hover:text-black flex flex-row gap-1"
                   onClick={() => setIsSubmenuOpen(!isSubmenuOpen)}
                 >
-                  Product and Services <FaChevronDown className='mt-[6px]'/>
+                  Product and Services <FaChevronDown className='mt-[6px]' />
                 </button>
                 {isSubmenuOpen && (
                   <div className="absolute left-0 w-[300px] bg-[#17a2b8] h-[400px] mt-2 text-white rounded-md shadow-lg z-20">
