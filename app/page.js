@@ -13,6 +13,7 @@ import OurTeamMembers from './components/OurTeamMembers'
 
 
 
+
 export default function Home() {
   return (
     <div>
@@ -21,8 +22,7 @@ export default function Home() {
       <SocialSection />
       <AboutUsSection />
       <AboutCardSection />
-     
-      <ServicesSection />
+       <ServicesSection />
       
       <FeaturedProject />
       <OurTeamMembers />

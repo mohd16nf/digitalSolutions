@@ -30,7 +30,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="bg-[#17a2b8] text-white md:py-20 py-12 contact-form">
+    <div className="bg-[#17a2b8] text-white md:py-20 py-12 contact-form" id='contact-form'>
       <div className="flex flex-col md:flex-row">
         {/* First Div */}
         <div className="flex-1 mb-8 md:mb-0 md:mr-8">
@@ -40,11 +40,11 @@ const ContactForm = () => {
           <div className="mt-6 flex items-center space-x-4">
             <div className="flex items-center space-x-2">
               <FiPhone size={45} />
-              <span className='text-xl'>Random</span>
+              <span className='text-xl'>Phone</span>
             </div>
             <div className="flex items-center space-x-2">
               <FiMail size={45} />
-              <span className='text-xl'>random</span>
+              <span className='text-xl'>Email</span>
             </div>
           </div>
         </div>

@@ -1,9 +1,10 @@
 // components/WelcomeSection.js
 import { FaArrowRight } from 'react-icons/fa';
+import Accordian from './AccordianText'
 
 const WelcomeSection = () => {
   return (
-    <div className="mx-auto py-8 md:py-28 about-section">
+    <div className="mx-auto py-8 md:py-28 about-section" id='about-section'>
       <h1 className="text-3xl md:text-5xl font-bold mb-8 text-center text-cyan-500">
       Newest IT Services Provider <br /> Company in India.
       </h1>
@@ -19,9 +20,7 @@ const WelcomeSection = () => {
       the leadership of Mr. Manoj K Singh, the Managing Director & CEO.
       </p>
       <div className='flex justify-center'>
-        <button className="flex items-center justify-center bg-black text-white py-4 rounded font-bold px-6">
-          More About Us <FaArrowRight className="ml-2" />
-        </button>
+        <Accordian/>
       </div>
     </div>
   );

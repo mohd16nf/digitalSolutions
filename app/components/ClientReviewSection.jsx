@@ -64,7 +64,7 @@ const Slider = () => {
       </div>
       <button
         onClick={prevSlide}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-[#17a2b8] hover:bg-gray-400 rounded-full py-2 px-6 mt-48 text-white"
+        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-[#17a2b8] hover:bg-gray-400 rounded-full py-2 px-6 mt-52 text-white"
       >
         <FaChevronLeft/>
       </button>
